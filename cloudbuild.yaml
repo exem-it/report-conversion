@@ -18,7 +18,9 @@ steps:
         'europe-west1',
         '--platform',
         'managed',
-      ]
+      '--service-account',
+       '482552972428-compute@developer.gserviceaccount.com'
+     ]
 
 images:
   - 'gcr.io/$PROJECT_ID/report-conversion'
