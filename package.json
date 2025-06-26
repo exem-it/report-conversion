@@ -1,0 +1,21 @@
+{
+  "name": "WORKER-report-generation",
+  "version": "1.0.0",
+  "description": "Génération de rapports worker",
+  "main": "js/index.js",
+  "scripts": {
+    "viewer": "node js/app.js",
+    "start": "node js/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "jsdom": "^25.0.1",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "2.15.349",
+    "puppeteer": "^19.8.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
