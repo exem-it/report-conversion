@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const { generatePDF, generateHTML } = require('./index');
 const app = express();
-const port = 5141;
+const port = 8080;
 
 app.use(bodyParser.raw({ limit: '100mb', type: 'text/html' }));
 
